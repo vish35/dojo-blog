@@ -51,6 +51,9 @@
 .blog-preview a{
   text-decoration: none;
 }
+.not-found a{
+  text-decoration: none;
+}
 
 /* blog details page */
 .blog-details h2 {
