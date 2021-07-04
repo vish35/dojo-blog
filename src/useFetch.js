@@ -1,9 +1,9 @@
 import { useEffect,useState } from "react";
-const useFetch =()=>{
+const useFetch =(url)=>{
     const [data,setData]=useState(null);
     const [isPending,setPending]=useState(true);
     const [Error,setError]=useState(null);
-    useEffect((url)=>{
+    useEffect(()=>{
         fetch(url).then(res=>
             {
                 if(!res.ok)
